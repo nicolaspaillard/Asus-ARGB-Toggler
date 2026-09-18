@@ -9,7 +9,7 @@ import os
 def get_shortcut_path():
     import winshell
 
-    return os.path.join(winshell.startup(), "Asus ARGB Toggler.lnk")
+    return os.path.join(winshell.startup(), "ToggleAsusARGB.lnk")
 
 
 def add_startup():
