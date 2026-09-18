@@ -18,7 +18,7 @@ jobs:
           python-version: "3.12"
       - name: Build exe
         run: |
-          pip install hid pywin32 winshell pyinstaller
+          pip install hidapi pywin32 winshell pyinstaller
           pyinstaller --onefile --noconsole "ToggleAsusARGB.py"
       - name: Create Release
         id: create_release
